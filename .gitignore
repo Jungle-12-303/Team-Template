@@ -1,0 +1,165 @@
+# ============================================================
+# PintOS / C 프로젝트
+# ============================================================
+*.o
+*.d
+*.dsk
+*.tmp
+*.bin
+*.elf
+build/
+os.dsk
+
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+.env
+.env.local
+.env.*.local
+
+# ============================================================
+# Node.js
+# ============================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+.yarn/
+
+# ============================================================
+# 빌드 산출물
+# ============================================================
+dist/
+out/
+target/
+*.class
+*.jar
+*.war
+
+# ============================================================
+# macOS
+# ============================================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# ============================================================
+# Windows
+# ============================================================
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.stackdump
+[Dd]esktop.ini
+
+# ============================================================
+# Linux
+# ============================================================
+*~
+.fuse_hidden*
+.nfs*
+.Trash-*
+.directory
+
+# ============================================================
+# IDE / 에디터
+# ============================================================
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/c_cpp_properties.json
+
+# JetBrains (CLion, IntelliJ, PyCharm 등)
+.idea/
+*.iml
+*.iws
+*.ipr
+cmake-build-*/
+
+# Vim
+*.swp
+*.swo
+*.swn
+*~
+Session.vim
+.netrwhist
+tags
+
+# Emacs
+*~
+\#*\#
+.\#*
+*.elc
+auto-save-list
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ============================================================
+# 보안 / 민감 정보
+# ============================================================
+*.pem
+*.key
+*.cert
+*.p12
+.env
+.env.*
+secrets/
+credentials/
+*.secret
+
+# ============================================================
+# 로그 / 임시 파일
+# ============================================================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+*.orig
+
+# ============================================================
+# Docker
+# ============================================================
+.docker/
+docker-compose.override.yml
+
+# ============================================================
+# 기타
+# ============================================================
+*.patch
+*.diff
+.cache/
+.parcel-cache/
+coverage/
+.nyc_output/
